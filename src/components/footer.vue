@@ -20,7 +20,6 @@
             text-gray-900
             sm:grid-cols-3
             xl:grid-cols-3
-            dark:text-white
             sm:p-8
           "
         >
@@ -32,15 +31,13 @@
               justify-center
               py-2
               hover:shadow-lg hover:shadow-green-400
-              dark:hover:shadow-neutral-300
               transition
               ease-in
               hover:bg-emerald-100
-              dark:hover:bg-slate-800
             "
           >
             <dt class="mb-2 text-2xl font-extrabold">Email</dt>
-            <dd class="font-light text-gray-800 dark:text-gray-200">
+            <dd class="font-light text-gray-800">
               <a href="mailto:mju6304101313@mju.ac.th"
                 >mju6304101313@mju.ac.th</a
               >
@@ -54,15 +51,13 @@
               justify-center
               py-2
               hover:shadow-lg hover:shadow-green-400
-              dark:hover:shadow-neutral-300
               transition
               ease-in
               hover:bg-emerald-100
-              dark:hover:bg-slate-800
             "
           >
             <dt class="mb-2 text-2xl font-extrabold">Phone</dt>
-            <dd class="font-light text-gray-800 dark:text-gray-200">
+            <dd class="font-light text-gray-800">
               <a href="tel:+660640424707">0640424707</a>
             </dd>
           </a>
@@ -77,17 +72,13 @@
               justify-center
               py-2
               hover:shadow-lg hover:shadow-green-400
-              dark:hover:shadow-neutral-300
               transition
               ease-in
               hover:bg-emerald-100
-              dark:hover:bg-slate-800
             "
           >
             <dt class="mb-2 text-2xl font-extrabold">GitHub</dt>
-            <dd class="font-light text-gray-800 dark:text-gray-200">
-              GitHub/CrynTek
-            </dd>
+            <dd class="font-light text-gray-800">GitHub/CrynTek</dd>
           </a>
         </dl>
       </div>

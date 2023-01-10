@@ -1,5 +1,5 @@
 <template>
-  <div class="mx-auto my-1 border border-gray-800 px-4 items-center">
+  <div class="mx-auto my-1 border border-gray-800 px-4 items-center pl-16">
     <div class="border border-green-800 pl-5 text-left">
       <h1 class="text-2xl font-extrabold">Education</h1>
     </div>

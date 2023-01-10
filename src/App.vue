@@ -4,7 +4,7 @@
   <Education_info></Education_info>
   <Skill_tools></Skill_tools>
   <WorkShop></WorkShop>
-  <footer></footer>
+  <Footer></Footer>
 </template>
 <script>
 import NavbarMenu from "@/components/NavbarMenu.vue";

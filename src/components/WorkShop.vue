@@ -1,5 +1,5 @@
 <template>
-    <div id="workshop">
+    <div id="workshop" class="pl-16">
       <h1 class="my-1 text-2xl font-extrabold pl-5 text-left">Workshop</h1>
       <div
         class="p-14 reveal"

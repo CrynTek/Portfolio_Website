@@ -1,5 +1,5 @@
 <template>
-  <div class="pt-32 mx-auto items-center" id="info">
+  <div class="pt-32 mx-auto items-center pl-16" id="info">
     <div class="border border-red-600">
       <h1
         class="
