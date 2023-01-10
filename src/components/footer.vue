@@ -1,5 +1,5 @@
 <template>
-  <div class="pb-16 mt-10 border border-red-50 pl-16" id="Contact">
+  <div class="pb-16 mt-10 bg-[#dffadf] pl-16" id="Contact">
     <h1 class="text-3xl font-extrabold flex flex-1 py-3">Contact</h1>
 
     <div>

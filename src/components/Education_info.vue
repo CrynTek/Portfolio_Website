@@ -1,6 +1,6 @@
 <template>
-  <div class="mx-auto my-1 border border-gray-800 px-4 items-center pl-16">
-    <div class="border border-green-800 pl-5 text-left">
+  <div class="mx-auto my-1  px-4 items-center pl-16 text-[#2563eb]">
+    <div class=" pl-5 text-left">
       <h1 class="text-2xl font-extrabold">Education</h1>
     </div>
     <div
@@ -9,14 +9,12 @@
         flex flex-row
         text-left
         justify-around
-        border
         my-2
-        border-red-800
+       
       "
     >
       <div
         class="
-          border border-gray-800
           hover:shadow-lg hover:shadow-green-400
           dark:hover:shadow-neutral-300
           transition
@@ -26,7 +24,7 @@
         "
       >
         <h1 class="font-extrabold">High School</h1>
-        <div class="pl-4">
+        <div class="pl-4 text-[#36827f]">
           <h1>2017-2019</h1>
           <h1>Graduated at</h1>
           <h1>Maesariang Boripat Suksa School</h1>
@@ -34,7 +32,6 @@
       </div>
       <div
         class="
-          border border-gray-800
           hover:shadow-lg hover:shadow-green-400
           dark:hover:shadow-neutral-300
           transition

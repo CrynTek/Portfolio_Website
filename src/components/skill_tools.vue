@@ -1,20 +1,11 @@
 <template>
-  <div class="pt-32 mx-auto items-center pl-16" id="info">
-    <div class="border border-red-600">
-      <h1
-        class="
-          border border-red-400
-          my-1
-          text-2xl
-          font-extrabold
-          pl-5
-          text-left
-        "
-      >
+  <div class="pt-32 mx-auto items-center pl-16 text-[#2563eb]" id="info">
+    <div class="">
+      <h1 class="my-1 text-2xl font-extrabold pl-5 text-left">
         Skills & Programming Language
       </h1>
       <div
-        class="p-4 reveal"
+        class="p-4 reveal "
         id="stats"
         role="tabpanel"
         aria-labelledby="stats-tab"
@@ -27,7 +18,7 @@
             gap-8
             p-4
             mx-auto
-            text-gray-900
+            text-[#2563eb]
             sm:grid-cols-3
             xl:grid-cols-4
             sm:p-8
@@ -41,7 +32,7 @@
               justify-start
               md:justify-center
               pr-2
-              hover:shadow-lg hover:shadow-green-400
+              hover:shadow-lg hover:shadow-blue-600
               transition
               ease-in
               hover:bg-emerald-100
@@ -162,7 +153,7 @@
       </div>
     </div>
     <div>
-      <h1 class="my-1 text-2xl font-extrabold pl-5 text-left">Tools</h1>
+      <h1 class="my-1 text-2xl font-extrabold pl-5 text-left text-[#2563eb]">Tools</h1>
       <div
         class="p-14 reveal"
         id="stats"
@@ -177,7 +168,7 @@
             gap-8
             p-4
             mx-auto
-            text-gray-900
+            text-[#2563eb]
             sm:grid-cols-3
             xl:grid-cols-4
             sm:p-8
@@ -234,9 +225,6 @@
         </dl>
       </div>
     </div>
-    <!-- <div class="sticky top-0 right-10 w-full flex justify-end">
-      <div class="bg-blue-400 w-40">Profile</div>
-    </div> -->
   </div>
 </template>
 

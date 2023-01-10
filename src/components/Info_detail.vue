@@ -1,5 +1,5 @@
 <template>
-  <div class="relative bg-purple-400">
+  <div class="relative bg-[#2563eb] ">
     <div class="absolute inset-x-0 bottom-0">
       <svg
         viewBox="0 0 224 12"
