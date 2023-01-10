@@ -1,10 +1,4 @@
 <template>
-  <!-- <router-link to="/">LOGO</router-link> |
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">Information</router-link> |
-    <router-link to="/about">Workshop</router-link>
-    <h1>kfjojeg</h1>
-    <router-view /> -->
   <nav class="bg-gray-100 top-0 sticky inset-x-0 mb-0 z-50">
     <div class="max-w-6xl mx-auto px-4">
       <div class="flex justify-between">
@@ -29,11 +23,10 @@
         </div>
         <!-- secondary nav -->
         <div class="hidden md:flex items-center space-x-1">
-          <a href="/" class="py-5 px-3 ">Home</a>
-          <a href="#info" class="py-5 px-3 ">Skills&Tools</a>
-          <a href="#workshop" class="py-5 px-3 ">Workshop</a>
+          <a href="#" class="py-5 px-3">Home</a>
+          <a href="#info" class="py-5 px-3">Skills&Tools</a>
+          <a href="#workshop" class="py-5 px-3">Workshop</a>
         </div>
-
       </div>
     </div>
   </nav>
