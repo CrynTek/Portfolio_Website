@@ -1,7 +1,7 @@
 <template>
-  <div class="pt-32 mx-auto items-center pl-16 text-[#2563eb]" id="info">
-    <div class="">
-      <h1 class="my-1 text-2xl font-extrabold pl-5 text-left">
+  <div class="pt-12 mx-auto items-center pl-16 text-[#2563eb] bg-[#bad0ff]" id="info">
+    <div>
+      <h1 class="my-1 text-2xl font-extrabold pl-5 text-left text-black">
         Skills & Programming Language
       </h1>
       <div
@@ -153,9 +153,9 @@
       </div>
     </div>
     <div>
-      <h1 class="my-1 text-2xl font-extrabold pl-5 text-left text-[#2563eb]">Tools</h1>
+      <h1 class="my-1 text-2xl font-extrabold pl-5 text-left text-black">Tools</h1>
       <div
-        class="p-14 reveal"
+        class="pb-8 reveal"
         id="stats"
         role="tabpanel"
         aria-labelledby="stats-tab"

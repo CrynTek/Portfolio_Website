@@ -1,5 +1,5 @@
 <template>
-  <div class="mx-auto my-1  px-4 items-center pl-16 text-[#2563eb]">
+  <div class="mx-auto my-1  px-4 content-center pl-16 text-[#2563eb] h-80">
     <div class=" pl-5 text-left">
       <h1 class="text-2xl font-extrabold">Education</h1>
     </div>
@@ -9,6 +9,7 @@
         flex flex-row
         text-left
         justify-around
+        sm:
         my-2
        
       "

@@ -1,5 +1,5 @@
 <template>
-    <div id="workshop" class="pl-16 text-[#36827F]">
+    <div id="workshop" class="pt-12 px-16  text-[#36827F] h-ma">
       <h1 class="my-1 text-2xl font-extrabold pl-5 text-left">Workshop</h1>
       <div
         class="p-14 reveal"
@@ -20,7 +20,6 @@
           >
             <dt class="mb-2 text-2xl font-extrabold">To Do List Website</dt>
           </div>
-          
         </dl>
       </div>
     </div>
