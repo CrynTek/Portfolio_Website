@@ -4,7 +4,7 @@
   <Info_detail></Info_detail>
   <Education_info></Education_info>
   <Skill_tools></Skill_tools>
-  <WorkShop></WorkShop>
+  <!-- <WorkShop></WorkShop> -->
   <Footer></Footer>
 </template>
 <script>
@@ -12,7 +12,7 @@ import NavbarMenu from "@/components/NavbarMenu.vue";
 import Info_detail from "@/components/Info_detail.vue";
 import Footer from "./components/footer.vue";
 import Skill_tools from "./components/skill_tools.vue";
-import WorkShop from "./components/WorkShop.vue";
+// import WorkShop from "./components/WorkShop.vue";
 import Education_info from './components/Education_info.vue';
 export default {
   name: "HomeView",
@@ -21,7 +21,7 @@ export default {
     Info_detail,
     Footer,
     Skill_tools,
-    WorkShop,
+    // WorkShop,
     Education_info,
   },
 };

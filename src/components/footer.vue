@@ -1,5 +1,6 @@
 <template>
-  <div class="pb-16 mt-10 bg-[#dffadf] pl-16" id="Contact">
+  <div class="pb-16 mt-10  pl-16 " style="background-image: url(../assets/background/fuji.jpg);" id="Contact"
+  >
     <h1 class="text-3xl font-extrabold flex flex-1 py-3">Contact</h1>
 
     <div>

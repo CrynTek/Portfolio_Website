@@ -1,9 +1,9 @@
-<template>
+<template >
   <div
-    class="my-10 mx-auto items-center py-20 text-[#f5b301] bg-[#3b3f46]"
+    class="mx-auto items-center py-10 text-[#f5b301] bg-[#3b3f46] h-screen"
     id="info"
   >
-    <div>
+    <div class="my-8">
       <h1
         class="
           my-1
@@ -167,10 +167,10 @@
         </dl>
       </div>
     </div>
-    <div>
+    <div class="">
       <h1
         class="
-          my-1
+          my-4
           text-3xl
           font-extrabold
           pl-5
@@ -230,7 +230,9 @@
               ease-in
             "
           >
-            <dt class="mb-2 text-2xl font-extrabold hover:text-[#f5b301]">Visual Studio Code</dt>
+            <dt class="mb-2 text-2xl font-extrabold hover:text-[#f5b301]">
+              Visual Studio Code
+            </dt>
           </div>
           <div
             class="
@@ -245,7 +247,66 @@
               ease-in
             "
           >
-            <dt class="mb-2 text-2xl font-extrabold hover:text-[#f5b301]">Microsoft Office</dt>
+            <dt class="mb-2 text-2xl font-extrabold hover:text-[#f5b301]">
+              Microsoft Office
+            </dt>
+          </div>
+        </dl>
+      </div>
+    </div>
+    <div id="workshop" class="text-[#36827F] h-ma">
+      <h1 class="my-4
+          text-3xl
+          font-extrabold
+          pl-5
+          text-center
+          underline underline-offset-2">Workshop</h1>
+      <div>
+        <dl
+          class="
+            grid
+            max-w-screen-xl
+            grid-cols-2
+            gap-8
+            p-4
+            mx-auto
+            justify-around
+            sm:grid-cols-3
+            xl:grid-cols-4
+            sm:p-8
+          "
+        >
+          <div
+            class="
+              flex flex-col
+              items-start
+              md:items-center
+              justify-start
+              md:justify-center
+              p-2
+              hover:shadow-lg hover:shadow-green-400
+              transition
+              ease-in
+              hover:bg-emerald-100
+            "
+          >
+            <dt class="mb-2 text-2xl font-extrabold hover:text-[#f5b301]">Recommended Books</dt>
+          </div>
+          <div
+            class="
+              flex flex-col
+              items-start
+              md:items-center
+              justify-start
+              md:justify-center
+              p-2
+              hover:shadow-lg hover:shadow-green-400
+              transition
+              ease-in
+              hover:bg-emerald-100
+            "
+          >
+            <dt class="mb-2 text-2xl font-extrabold">To Do List Website</dt>
           </div>
         </dl>
       </div>

@@ -1,29 +1,27 @@
 <template>
-  
-  <div class="mx-auto my-14  px-4 content-center text-[#f5b301] h-80 ">
+  <div class="mx-auto my-20 px-4 content-center text-[#f5b301] h-96 ">
     <div class="text-left">
-      <h1 class="text-3xl text-center font-extrabold mb-10 underline underline-offset-2">Education</h1>
+      <h1
+        class="
+          text-3xl text-center
+          font-extrabold
+          mb-10
+          underline underline-offset-2
+        "
+      >
+        Education
+      </h1>
     </div>
-    <div
-      class="
-        container
-
-        flex flex-row
-        text-left
-        justify-around
-        my-2
-       
-      "
-    >
+    <div class="mx-auto container flex items-center my-2 justify-around px-5">
       <div
         class="
           hover:shadow-lg hover:underline hover:underline-offset-4
           dark:hover:shadow-neutral-300
           transition
           ease-in
-          hover:bg-emerald-100
           dark:hover:bg-slate-800
-          px-4
+          text-left
+          px-4 py-4
         "
       >
         <h1 class="font-extrabold">High School</h1>
@@ -35,13 +33,13 @@
       </div>
       <div
         class="
-          hover:shadow-lg hover:underline hover:underline-offset-4
+        hover:shadow-lg hover:underline hover:underline-offset-4
           dark:hover:shadow-neutral-300
           transition
           ease-in
-          hover:bg-emerald-100
           dark:hover:bg-slate-800
-          px-4
+          text-left
+          px-4 py-4
         "
       >
         <h1 class="font-extrabold">University</h1>
