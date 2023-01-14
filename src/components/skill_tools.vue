@@ -1,15 +1,22 @@
 <template>
-  <div class="pt-12 mx-auto items-center pl-16 text-[#2563eb] bg-[#bad0ff]" id="info">
+  <div
+    class="my-10 mx-auto items-center py-20 text-[#f5b301] bg-[#3b3f46]"
+    id="info"
+  >
     <div>
-      <h1 class="my-1 text-2xl font-extrabold pl-5 text-left text-black">
+      <h1
+        class="
+          my-1
+          text-3xl
+          font-extrabold
+          pl-5
+          text-center
+          underline underline-offset-2
+        "
+      >
         Skills & Programming Language
       </h1>
-      <div
-        class="p-4 reveal "
-        id="stats"
-        role="tabpanel"
-        aria-labelledby="stats-tab"
-      >
+      <div class="p-4 reveal" id="stats" role="tabpanel">
         <dl
           class="
             grid
@@ -18,7 +25,7 @@
             gap-8
             p-4
             mx-auto
-            text-[#2563eb]
+            text-[#fed053]
             sm:grid-cols-3
             xl:grid-cols-4
             sm:p-8
@@ -35,10 +42,12 @@
               hover:shadow-lg hover:shadow-blue-600
               transition
               ease-in
-              hover:bg-emerald-100
             "
           >
-            <dt class="mb-2 text-2xl text- font-extrabold">Python</dt>
+            <!--  -->
+            <dt class="mb-2 text-2xl text- font-extrabold hover:text-[#f5b301]">
+              Python
+            </dt>
             <dd class="font-light text-gray-500">Basic</dd>
           </div>
           <div
@@ -49,13 +58,14 @@
               justify-start
               md:justify-center
               pr-2
-              hover:shadow-lg hover:shadow-green-400
+              hover:shadow-lg hover:shadow-blue-600
               transition
               ease-in
-              hover:bg-emerald-100
             "
           >
-            <dt class="mb-2 text-2xl font-extrabold">JAVA OOP</dt>
+            <dt class="mb-2 text-2xl font-extrabold hover:text-[#f5b301]">
+              JAVA OOP
+            </dt>
             <dd class="font-light text-gray-500">Java & Java OOP</dd>
           </div>
           <div
@@ -66,13 +76,14 @@
               justify-start
               md:justify-center
               pr-2
-              hover:shadow-lg hover:shadow-green-400
+              hover:shadow-lg hover:shadow-blue-600
               transition
               ease-in
-              hover:bg-emerald-100
             "
           >
-            <dt class="mb-2 text-2xl font-extrabold">DART FLUTTER</dt>
+            <dt class="mb-2 text-2xl font-extrabold hover:text-[#f5b301]">
+              DART FLUTTER
+            </dt>
             <dd class="font-light text-gray-500">Basic app</dd>
           </div>
           <div
@@ -83,13 +94,14 @@
               justify-start
               md:justify-center
               pr-2
-              hover:shadow-lg hover:shadow-green-400
+              hover:shadow-lg hover:shadow-blue-600
               transition
               ease-in
-              hover:bg-emerald-100
             "
           >
-            <dt class="mb-2 text-2xl font-extrabold">FIREBASE, MySQL</dt>
+            <dt class="mb-2 text-2xl font-extrabold hover:text-[#f5b301]">
+              FIREBASE, MySQL
+            </dt>
             <dd class="font-light text-gray-500">MySQL Query Commands</dd>
           </div>
 
@@ -101,13 +113,14 @@
               justify-start
               md:justify-center
               pr-2
-              hover:shadow-lg hover:shadow-green-400
+              hover:shadow-lg hover:shadow-blue-600
               transition
               ease-in
-              hover:bg-emerald-100
             "
           >
-            <dt class="mb-2 text-2xl font-extrabold">VUE.JS</dt>
+            <dt class="mb-2 text-2xl font-extrabold hover:text-[#f5b301]">
+              VUE.JS
+            </dt>
             <dd class="font-light text-gray-500">vuejs, Nuxtjs, Vue cli</dd>
           </div>
           <div
@@ -118,13 +131,14 @@
               justify-start
               md:justify-center
               pr-2
-              hover:shadow-lg hover:shadow-green-400
+              hover:shadow-lg hover:shadow-blue-600
               transition
               ease-in
-              hover:bg-emerald-100
             "
           >
-            <dt class="mb-2 text-2xl font-extrabold">HTML/JavaScript/CSS</dt>
+            <dt class="mb-2 text-2xl font-extrabold hover:text-[#f5b301]">
+              HTML/JavaScript/CSS
+            </dt>
             <dd class="font-light text-gray-500">
               BOOTSTRAP CSS, TAILWIND CSS,
             </dd>
@@ -138,13 +152,14 @@
               justify-start
               md:justify-center
               pr-2
-              hover:shadow-lg hover:shadow-green-400
+              hover:shadow-lg hover:shadow-blue-600
               transition
               ease-in
-              hover:bg-emerald-100
             "
           >
-            <dt class="mb-2 text-2xl font-extrabold">UML DIAGRAM</dt>
+            <dt class="mb-2 text-2xl font-extrabold hover:text-[#f5b301]">
+              UML DIAGRAM
+            </dt>
             <dd class="font-light text-gray-500">
               Class Diagram,Use case Diagram, etc.
             </dd>
@@ -153,7 +168,18 @@
       </div>
     </div>
     <div>
-      <h1 class="my-1 text-2xl font-extrabold pl-5 text-left text-black">Tools</h1>
+      <h1
+        class="
+          my-1
+          text-3xl
+          font-extrabold
+          pl-5
+          text-center
+          underline underline-offset-2
+        "
+      >
+        Tools
+      </h1>
       <div
         class="pb-8 reveal"
         id="stats"
@@ -168,7 +194,7 @@
             gap-8
             p-4
             mx-auto
-            text-[#2563eb]
+            text-[#ffe089]
             sm:grid-cols-3
             xl:grid-cols-4
             sm:p-8
@@ -182,13 +208,14 @@
               justify-start
               md:justify-center
               p-2
-              hover:shadow-lg hover:shadow-green-400
+              hover:shadow-lg hover:shadow-blue-600
               transition
               ease-in
-              hover:bg-emerald-100
             "
           >
-            <dt class="mb-2 text-2xl font-extrabold">FIGMA</dt>
+            <dt class="mb-2 text-2xl font-extrabold hover:text-[#f5b301]">
+              FIGMA
+            </dt>
           </div>
           <div
             class="
@@ -198,13 +225,12 @@
               justify-start
               md:justify-center
               p-2
-              hover:shadow-lg hover:shadow-green-400
+              hover:shadow-lg hover:shadow-blue-600
               transition
               ease-in
-              hover:bg-emerald-100
             "
           >
-            <dt class="mb-2 text-2xl font-extrabold">Visual Studio Code</dt>
+            <dt class="mb-2 text-2xl font-extrabold hover:text-[#f5b301]">Visual Studio Code</dt>
           </div>
           <div
             class="
@@ -214,13 +240,12 @@
               justify-start
               md:justify-center
               p-2
-              hover:shadow-lg hover:shadow-green-400
+              hover:shadow-lg hover:shadow-blue-600
               transition
               ease-in
-              hover:bg-emerald-100
             "
           >
-            <dt class="mb-2 text-2xl font-extrabold">Microsoft Office</dt>
+            <dt class="mb-2 text-2xl font-extrabold hover:text-[#f5b301]">Microsoft Office</dt>
           </div>
         </dl>
       </div>
