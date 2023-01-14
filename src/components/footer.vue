@@ -1,7 +1,7 @@
 <template>
-  <div class="pb-16 mt-10  pl-16 " style="background-image: url(../assets/background/fuji.jpg);" id="Contact"
+  <div class="pb-16 pl-16 w-full"  id="contact"
   >
-    <h1 class="text-3xl font-extrabold flex flex-1 py-3">Contact</h1>
+    <h1 class="text-3xl font-extrabold flex flex-1 py-8 ">Contact</h1>
 
     <div>
       <div
@@ -31,10 +31,10 @@
               items-center
               justify-center
               py-2
-              hover:shadow-lg hover:shadow-green-400
+              hover:shadow-lg hover:shadow-[#3b3f46]
               transition
               ease-in
-              hover:bg-emerald-100
+              hover:bg-[#fed053]
             "
           >
             <dt class="mb-2 text-2xl font-extrabold">Email</dt>
@@ -51,10 +51,10 @@
               items-center
               justify-center
               py-2
-              hover:shadow-lg hover:shadow-green-400
+              hover:shadow-lg hover:shadow-[#3b3f46]
               transition
               ease-in
-              hover:bg-emerald-100
+              hover:bg-[#fed053]
             "
           >
             <dt class="mb-2 text-2xl font-extrabold">Phone</dt>
@@ -72,10 +72,10 @@
               items-center
               justify-center
               py-2
-              hover:shadow-lg hover:shadow-green-400
+              hover:shadow-lg hover:shadow-[#3b3f46]
               transition
               ease-in
-              hover:bg-emerald-100
+              hover:bg-[#fed053]
             "
           >
             <dt class="mb-2 text-2xl font-extrabold">GitHub</dt>

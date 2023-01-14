@@ -25,7 +25,7 @@
         <div class=" md:flex items-center space-x-1  ">
           <a href="#" class="py-5 px-3 text-[#fed053] hover:text-white">Home</a>
           <a href="#info" class="py-5 px-3 text-[#fed053] hover:text-white">Skills&Tools</a>
-          <a href="#workshop" class="py-5 px-3 text-[#fed053] hover:text-white">Workshop</a>
+          <a href="#contact" class="py-5 px-3 text-[#fed053] hover:text-white">Contact</a>
         </div>
       </div>
     </div>

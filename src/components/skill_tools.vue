@@ -39,7 +39,7 @@
               justify-start
               md:justify-center
               pr-2
-              hover:shadow-lg hover:shadow-blue-600
+              hover:shadow-lg hover:shadow-white
               transition
               ease-in
             "
@@ -58,7 +58,7 @@
               justify-start
               md:justify-center
               pr-2
-              hover:shadow-lg hover:shadow-blue-600
+              hover:shadow-lg hover:shadow-white
               transition
               ease-in
             "
@@ -76,7 +76,7 @@
               justify-start
               md:justify-center
               pr-2
-              hover:shadow-lg hover:shadow-blue-600
+              hover:shadow-lg hover:shadow-white
               transition
               ease-in
             "
@@ -94,7 +94,7 @@
               justify-start
               md:justify-center
               pr-2
-              hover:shadow-lg hover:shadow-blue-600
+              hover:shadow-lg hover:shadow-white
               transition
               ease-in
             "
@@ -113,7 +113,7 @@
               justify-start
               md:justify-center
               pr-2
-              hover:shadow-lg hover:shadow-blue-600
+              hover:shadow-lg hover:shadow-white
               transition
               ease-in
             "
@@ -131,7 +131,7 @@
               justify-start
               md:justify-center
               pr-2
-              hover:shadow-lg hover:shadow-blue-600
+              hover:shadow-lg hover:shadow-white
               transition
               ease-in
             "
@@ -152,7 +152,7 @@
               justify-start
               md:justify-center
               pr-2
-              hover:shadow-lg hover:shadow-blue-600
+              hover:shadow-lg hover:shadow-white
               transition
               ease-in
             "
@@ -208,7 +208,7 @@
               justify-start
               md:justify-center
               p-2
-              hover:shadow-lg hover:shadow-blue-600
+              hover:shadow-lg hover:shadow-white
               transition
               ease-in
             "
@@ -225,7 +225,7 @@
               justify-start
               md:justify-center
               p-2
-              hover:shadow-lg hover:shadow-blue-600
+              hover:shadow-lg hover:shadow-white
               transition
               ease-in
             "
@@ -242,7 +242,7 @@
               justify-start
               md:justify-center
               p-2
-              hover:shadow-lg hover:shadow-blue-600
+              hover:shadow-lg hover:shadow-white
               transition
               ease-in
             "
@@ -254,7 +254,7 @@
         </dl>
       </div>
     </div>
-    <div id="workshop" class="text-[#36827F] h-ma">
+    <div id="workshop" class="mb-5">
       <h1 class="my-4
           text-3xl
           font-extrabold
@@ -264,16 +264,13 @@
       <div>
         <dl
           class="
-            grid
-            max-w-screen-xl
-            grid-cols-2
             gap-8
             p-4
-            mx-auto
+            flex
             justify-around
-            sm:grid-cols-3
-            xl:grid-cols-4
+            item-center
             sm:p-8
+            text-[#ffe089]
           "
         >
           <div
@@ -284,29 +281,28 @@
               justify-start
               md:justify-center
               p-2
-              hover:shadow-lg hover:shadow-green-400
+              hover:shadow-lg hover:shadow-white
+              hover:text-[#f5b301]
               transition
               ease-in
-              hover:bg-emerald-100
             "
           >
             <dt class="mb-2 text-2xl font-extrabold hover:text-[#f5b301]">Recommended Books</dt>
           </div>
           <div
             class="
-              flex flex-col
+            flex flex-col
               items-start
               md:items-center
               justify-start
               md:justify-center
               p-2
-              hover:shadow-lg hover:shadow-green-400
+              hover:shadow-lg hover:shadow-white
               transition
               ease-in
-              hover:bg-emerald-100
             "
           >
-            <dt class="mb-2 text-2xl font-extrabold">To Do List Website</dt>
+            <dt class="mb-2 text-2xl font-extrabold hover:text-[#f5b301]">To Do List Website</dt>
           </div>
         </dl>
       </div>
