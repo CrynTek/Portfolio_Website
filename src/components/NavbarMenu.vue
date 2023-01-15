@@ -1,7 +1,6 @@
 <template>
-  <nav class="w-full bg-[#1e2328] top-0 sticky inset-x-0 mb-0 z-50 -2xl  shadow-md shadow-[#fed053]">
-    <!-- inset-x-0 mb-0 z-50 -2xl -->
-    <div class="max-w-6xl mx-auto px-4">
+  <nav class="bg-[#1e2328] top-0 sticky z-50 shadow-md shadow-[#fed053]">
+    <div class="mx-auto px-4">
       <div class="flex justify-between">
         <div class="flex space-x-4">
           <!-- logo -->
@@ -18,7 +17,6 @@
                 hover:text-[#fed053]
               "
             >
-              <!-- <i class="bx bxl-medium-old mr-1 mb-1"></i> -->
               <span class="font-bold text-3xl">CrynTek</span>
             </a>
           </div>
