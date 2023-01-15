@@ -1,6 +1,6 @@
 <template>
- <div class="overflow-hidden">
   <NavbarMenu></NavbarMenu>
+ <div class="overflow-hidden">
   <Info_detail></Info_detail>
   <Education_info></Education_info>
    <Skill_tools></Skill_tools>
