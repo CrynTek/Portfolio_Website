@@ -1,5 +1,5 @@
 <template>
-  <nav class="bg-[#1e2328] top-0 sticky z-50 shadow-md shadow-[#fed053]">
+  <nav class="bg-[#1e2328] sticky top-0 z-50 shadow-md shadow-[#fed053]">
     <div class="mx-auto px-4">
       <div class="flex justify-between">
         <div class="flex space-x-4">
