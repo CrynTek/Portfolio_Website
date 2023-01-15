@@ -1,5 +1,7 @@
 <template>
-  <div class="relative bg-[#1e2328] ">
+ 
+  <div class="relative bg-cover bg-bottom bg-blur-sm h-3/4" style="background-image: url(https://firebasestorage.googleapis.com/v0/b/web-portfolio-for-resume.appspot.com/o/2211.w018.n002.1438B.p15.1438.jpg?alt=media&token=a19b1751-78dc-4181-af5f-e2a8b5f64a74);">
+    <div class="w-full absolute h-full bg-gray-500 opacity-50"></div>
     <div class="absolute inset-x-0 bottom-0">
       <svg
         viewBox="0 0 224 12"

@@ -1,6 +1,6 @@
 <template >
   <div
-    class="mx-auto items-center py-10 text-[#f5b301] bg-[#3b3f46] h-screen"
+    class="mx-auto items-center py-10 text-[#f5b301] bg-[#3b3f46] bg-cover h-screen" style="background-image: url(https://firebasestorage.googleapis.com/v0/b/web-portfolio-for-resume.appspot.com/o/2211.w018.n002.1438B.p15.1438.jpg?alt=media&token=a19b1751-78dc-4181-af5f-e2a8b5f64a74);"
     id="info"
   >
     <div class="my-8">
